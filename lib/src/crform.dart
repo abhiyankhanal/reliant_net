@@ -121,6 +121,106 @@ class _CrformState extends State<Crform> {
                           ),
                         ),
                       ),
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Material(
+                          borderRadius: BorderRadius.circular(4.0),
+                          elevation: 5.0,
+                          shadowColor: shadow.withOpacity(0.5),
+                          child: TextFormField(
+                            decoration: InputDecoration(
+                                border: OutlineInputBorder(
+                                    borderSide:
+                                        BorderSide(),),
+                                labelText: "Dummy"),
+                            validator:
+                                MinLengthValidator(1, errorText: "Empty"),
+                            onChanged: (val) {
+                              //_client.fname = val;
+                            },
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Material(
+                          borderRadius: BorderRadius.circular(4.0),
+                          elevation: 5.0,
+                          shadowColor: shadow.withOpacity(0.5),
+                          child: TextFormField(
+                            decoration: InputDecoration(
+                                border: OutlineInputBorder(
+                                    borderSide:
+                                        BorderSide(),),
+                                labelText: "Dummy"),
+                            validator:
+                                MinLengthValidator(1, errorText: "Empty"),
+                            onChanged: (val) {
+                              //_client.fname = val;
+                            },
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Material(
+                          borderRadius: BorderRadius.circular(4.0),
+                          elevation: 5.0,
+                          shadowColor: shadow.withOpacity(0.5),
+                          child: TextFormField(
+                            decoration: InputDecoration(
+                                border: OutlineInputBorder(
+                                    borderSide:
+                                        BorderSide(),),
+                                labelText: "Dummy"),
+                            validator:
+                                MinLengthValidator(1, errorText: "Empty"),
+                            onChanged: (val) {
+                              //_client.fname = val;
+                            },
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Material(
+                          borderRadius: BorderRadius.circular(4.0),
+                          elevation: 5.0,
+                          shadowColor: shadow.withOpacity(0.5),
+                          child: TextFormField(
+                            decoration: InputDecoration(
+                                border: OutlineInputBorder(
+                                    borderSide:
+                                        BorderSide(),),
+                                labelText: "Dummy"),
+                            validator:
+                                MinLengthValidator(1, errorText: "Empty"),
+                            onChanged: (val) {
+                              //_client.fname = val;
+                            },
+                          ),
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Material(
+                          borderRadius: BorderRadius.circular(4.0),
+                          elevation: 5.0,
+                          shadowColor: shadow.withOpacity(0.5),
+                          child: TextFormField(
+                            decoration: InputDecoration(
+                                border: OutlineInputBorder(
+                                    borderSide:
+                                        BorderSide(),),
+                                labelText: "Dummy"),
+                            validator:
+                                MinLengthValidator(1, errorText: "Empty"),
+                            onChanged: (val) {
+                              //_client.fname = val;
+                            },
+                          ),
+                        ),
+                      ),
                       ElevatedButton(onPressed:() => Navigator.of(context).pushReplacementNamed("/success"),
                       
                       child:Padding(
