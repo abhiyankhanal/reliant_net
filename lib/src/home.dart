@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
         preferredSize: Size.fromHeight(_height * 0.1),
         child: AppBar(
           title: Text("Reliant Net"),
-          leading: Row(
+          /*leading: Row(
             children: [
               Expanded(
                 child: Padding(
@@ -37,7 +37,7 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ],
-          ),
+          ),*/
           backgroundColor: mainCol,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.vertical(
